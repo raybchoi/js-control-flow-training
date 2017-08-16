@@ -6,9 +6,9 @@ let userLogin = {
 }
 
 let login = function () {
-  let numberOfTries = 3
+  // let numberOfTries = 3
   // debugger;
-  for ( let i = 0; i < numberOfTries; i++ ) {
+  for ( let i = 0; i < 3; i++ ) {
     let pwInput = prompt(`Enter password for ${userLogin.userName}`)
     if ( pwInput === userLogin.passWord ) {
       alert('Great! Password matches!')
